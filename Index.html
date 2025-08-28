@@ -1,72 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Blog</title>
-    <meta name="description" content="Awesome Blog by Canaan">
-    <meta name="keywords" content="web design blog, web dev blog, travesy media">
-    <style>
-        #main-header{
-            text-align: center;
-            background-color: black;
-            color: white;
-            padding: 10px;
-        }
-        
-        #main-footer{
-            text-align: center;
-            font-size: 18px;
-        }
-    </style>
+    <title>HTML Cheat Sheet</title>
 </head>
 <body>
-    <header id="main-header">
-        <h1>My Website</h1>
-    </header>
+    <a href="blog.html">Go to blog.html</a>
+    <hr>
+    <!-- Headings -->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    
+    <!-- Paragraph -->
+    <p>Lorem ipsum dolor, <strong>sit amet consectetur</strong> adipisicing elit. Et, quaerat?</p>
 
-    <a href="Index.html"> Go to Index</a>
+    <p>Lorem ipsum dolor sit, <a href="http://google.com" target="_blank">amet consectetur adipisicing elit</a>. Architecto inventore sit quas, nisi, deleniti tempore nostrum ipsa magnam officia maiores, esse explicabo temporibus odit quae maxime dolor beatae quisquam atque?</p>
 
-    <section>
-        <article class="post">
-            <h3>Blog Post One</h3>
-            <small>Posted By Canaan on August 27th</small>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis non quasi nihil, ullam dicta mollitia suscipit esse magni natus quae veniam. Corrupti, quod a? Pariatur, eligendi! Autem totam expedita voluptatem.
-            </p>
-            <a href="post.html">Read more</a>
-        </article>
+    <!-- Lists -->
+    <ul>
+        <li>LIst Items1</li>
+        <li>LIst Items2</li>
+        <li>LIst Items3</li>
+        <li>LIst Items4</li>
+    </ul>
 
-        <article class="post">
-            <h3>Blog Post Two</h3>
-            <small>Posted By Canaan on August 27th</small>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis non quasi nihil, ullam dicta mollitia suscipit esse magni natus quae veniam. Corrupti, quod a? Pariatur, eligendi! Autem totam expedita voluptatem.
-            </p>
-            <a href="post.html">Read more</a>
-        </article>
+    <ol>
+        <li>LIst Items1</li>
+        <li>LIst Items2</li>
+        <li>LIst Items3</li>
+        <li>LIst Items4</li>
+    </ol>
 
-        <article class="post">
-            <h3>Blog Post Three</h3>
-            <small>Posted By Canaan on August 27th</small>
-                <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis non quasi nihil, ullam dicta mollitia suscipit esse magni natus quae veniam. Corrupti, quod a? Pariatur, eligendi! Autem totam expedita voluptatem.
-                </p>
-            <a href="post.html">Read more</a>
-        </article>
-    </section>
+    <!-- Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Canaan</td>
+                <td>canaan.com</td>
+                <td>19</td>
+            </tr>
 
-    <aside>
-        <nav>
-            <ul>
-                <li><a href="#">Catergory 1</a></li>
-                <li><a href="#">Catergory 2</a></li>
-                <li><a href="#">Catergory 3</a></li>
-            </ul>
-        </nav>
-        <h3>Categories</h3>
-    </aside>
+            <tr>
+                <td>John</td>
+                <td>John.com</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <footer id="main-footer">
-        <p>Copyright &copy; 2017</p>
-    </footer>
+    <br>
+    <hr>
+    <br>
+
+    <!-- Forms -->
+    <form action="">
+        <div>
+            <label for="">First Name</label>
+            <input type="text" name="firstName">
+        </div>
+        <br>
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" name="lastName">
+        </div>
+        <br>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="">Message</label>
+            <textarea name="message" id=""></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="">Gender</label>
+            <select name="Gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Age:</label>
+            <input type="number" name="age" value="30" id="">
+        </div>
+        <br>
+        <div>
+            <label for="">Birthday</label>
+            <input type="date" name="birthday" id="">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <!-- Buttons -->
+    <button>Click Bro</button>
+    <br>
+    <!-- Images -->
+    <a href="images/spiderman.jpeg">
+        <img src="images/spiderman.jpeg" alt="Miles Morales" width="200">
+    </a>
+
+    <!-- Quotations -->
+    <blockquote cite="htttp://traversymedia.com">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, unde voluptate! Nam consequuntur magni, eligendi quibusdam saepe minus quod libero obcaecati tenetur blanditiis aperiam voluptatem ad dolorem, ratione deleniti maiores!
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+    <p>Html <cite>crash course</cite> by canaan</p>
 </body>
 </html>
